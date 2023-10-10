@@ -13,12 +13,15 @@ namespace tipos_de_variaveis_chsarp
         {
             // Tipagem estática
             int y = 1;
-            y = "s";
+            //y = "s";
 
 
             //Tipagem dinâmica
             var x = 1;
-            x = "sss";
+            //x = "sss";
+
+            Console.WriteLine(x);
+            Console.WriteLine(y);
         }
     }
 }
